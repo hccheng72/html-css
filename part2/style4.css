@@ -1,0 +1,48 @@
+.header-image{
+    background-color:green;
+}
+.container{
+    display: flex;
+}
+
+.left-contents{
+    flex: 0 1 auto;
+}
+
+.right-contents{
+    flex: 1 0 200px;
+}
+
+.menu{
+    background-color: gray;
+}
+
+.menu > div{
+    padding: 10px;
+    border: white solid 1px;
+}
+
+.square{
+    border: solid gray 1px;
+    border-radius: 10%;
+    margin: 20px
+}
+
+.square > h3{
+    color: green;
+}
+
+.right-first-content{
+    background-color: gray;
+}
+
+.footer{
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+.footer > p{
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+}

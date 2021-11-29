@@ -1,0 +1,42 @@
+.header{
+    height: 50px;
+    background-color: cornflowerblue;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.header > a{
+    color: white;
+    background-color: orange;
+    text-align: center;
+    height: 50%;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.news > div{
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 30%;
+}
+
+.main{
+    background-color: gray;
+    padding: 20px 30px;
+}
+
+.pages > div{
+    width: 20px;
+    height: 20px;
+    background-color: turquoise;
+    color: white;
+    /* border: solid white 1px; */
+    text-align: center;
+    margin-right: 1px;
+}
